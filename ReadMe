@@ -1,0 +1,14 @@
+# Personal Expense Tracker (Python CLI App)
+
+This is a simple command-line based expense tracker I built using Python. It allows you to record your daily expenses, view them anytime, and even see a pie chart of your spending by category. All data is saved in a CSV file, so it's lightweight and doesn't need any database setup.
+
+### ✨ Features:
+- Add new expenses with category, amount, and optional description
+- View all past expenses from the CSV
+- Automatically generates a pie chart using Matplotlib to show where your money goes
+- Data stored locally in `expenses.csv` — no internet required
+
+### 🔧 Technologies Used:
+- Python (Core)
+- CSV file handling
+- `matplotlib` for data visualization
